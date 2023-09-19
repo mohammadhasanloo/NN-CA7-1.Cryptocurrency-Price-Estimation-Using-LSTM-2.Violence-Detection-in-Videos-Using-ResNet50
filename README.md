@@ -108,14 +108,6 @@ The data is divided into three sets for training, validation, and evaluation, wi
 
 ## Results
 
-The resulting images are shown below:
-
-- Accuracy Plot
-- Loss Plot
-- Precision Plot
-- Recall Plot
-- Score 1f Plot
-
 Based on the above results, we achieved good accuracy for both training and validation data. Additionally, for other metrics, we achieved 68% precision and recall on the validation data, resulting in a 68% score_1f for the validation data as well. The lack of smoothness for the validation data is due to the lower number of samples in this category (25 videos). In contrast, in the training data where the count is higher (400 videos), the various assessment measures show a smoother increase, leading to a reduction in loss.
 
 Finally, the results for the test data are as follows:
